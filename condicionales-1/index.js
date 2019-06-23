@@ -1,4 +1,6 @@
-document.write("hola");
+document.write("hola" + "</br>");
+
+/* Primer ejercicio de la prueba */
 
 var nombre = "piñas";
 var cantidad = 20;
@@ -6,7 +8,7 @@ var precio = 2200;
 
 var total = precio * cantidad;
 
-console.log("precio: "+total);
+document.write("precio: "+total + "</br>");
 
 if(cantidad > 10){
     total = total * 0.8
@@ -14,4 +16,4 @@ if(cantidad > 10){
     total = total * 0.9
 }
 
-console.log ("El nuevo precio es " + total)
+document.write("El nuevo precio es: " + total + "</br>")
